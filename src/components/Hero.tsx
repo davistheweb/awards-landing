@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
   };
 
   React.useEffect(() => {
-    if (loadedVideos === totalVideos - 1) {
+    if (loadedVideos === 3) {
       setIsLoading(false);
     }
   }, [loadedVideos]);
