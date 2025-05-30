@@ -1,8 +1,13 @@
 import React from "react";
-import { Hero } from "@components/Hero";
-import { About } from "@components/About";
-import { Navbar } from "@components/ui/Navbar";
-import { Features } from "@components/Features";
+import {
+  Hero,
+  About,
+  Navbar,
+  Features,
+  Story,
+  Contact,
+  Footer,
+} from "@components/index";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +16,9 @@ const App: React.FC = () => {
       <Hero />
       <About />
       <Features />
+      <Story />
+      <Contact />
+      <Footer />
     </main>
   );
 };
