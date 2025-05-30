@@ -6,7 +6,7 @@ import { Button } from "./ui/Button";
 import { Send } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
-const Hero: React.FC = () => {
+export const Hero: React.FC = () => {
   const [currentIndex, setCurrentIndex] = React.useState<number>(1);
   const [hasClicked, setHasClicked] = React.useState<boolean>(false);
   const [isLoading, setIsLoading] = React.useState<boolean>(true);
@@ -154,4 +154,3 @@ const Hero: React.FC = () => {
   );
 };
 
-export { Hero };

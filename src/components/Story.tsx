@@ -7,7 +7,7 @@ import { Button } from "./ui/Button";
 export const Story: React.FC = () => {
   const frameRef = React.useRef<HTMLImageElement>(null);
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (): void => {
     const element = frameRef.current;
     gsap.to(element, {
       duration: 0.3,
