@@ -1,11 +1,11 @@
 import * as React from "react";
 
 interface ButtonProp {
-  title: string;
-  id: string;
+  title?: string;
+  id?: string;
   rightIcon?: React.JSX.Element;
   leftIcon?: React.JSX.Element;
-  containerClass: string;
+  containerClass?: string;
 }
 
 export const Button: React.FC<ButtonProp> = ({
