@@ -16,7 +16,7 @@ const BentoTilt: React.FC<BentoTiltProp> = ({ children, className = "" }) => {
   const itemRef = React.useRef<HTMLDivElement>(null);
 
   const handleMouseMove = (
-    e: React.MouseEvent<HTMLDivElement, MouseEvent>
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>,
   ): void => {
     if (!itemRef.current) return;
 
