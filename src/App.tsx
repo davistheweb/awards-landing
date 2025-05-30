@@ -1,5 +1,4 @@
 import React from "react";
-import { Analytics } from "@vercel/analytics/react";
 import {
   Hero,
   About,
@@ -22,7 +21,6 @@ const App: React.FC = () => {
         <Contact />
         <Footer />
       </main>
-      <Analytics />
     </>
   );
 };
