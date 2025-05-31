@@ -9,18 +9,16 @@ import {
   Footer,
 } from "@components/index";
 
-const Home: React.FC = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Features />
-      <Story />
-      <Contact />
-      <Footer />
-    </>
-  );
-};
+const Home: React.FC = () => (
+  <>
+    <Navbar />
+    <Hero />
+    <About />
+    <Features />
+    <Story />
+    <Contact />
+    <Footer />
+  </>
+);
 
 export default Home;

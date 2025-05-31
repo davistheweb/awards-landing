@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
         });
       }
     },
-    { dependencies: [currentIndex], revertOnUpdate: true }
+    { dependencies: [currentIndex], revertOnUpdate: true },
   );
   useGSAP(() => {
     gsap.set("#video-frame", {
@@ -120,7 +120,7 @@ export const Hero: React.FC = () => {
           />
           <video
             src={getVideoSrc(
-              currentIndex === totalVideos - 1 ? 1 : currentIndex
+              currentIndex === totalVideos - 1 ? 1 : currentIndex,
             )}
             autoPlay
             loop
